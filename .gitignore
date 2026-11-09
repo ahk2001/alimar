@@ -20,3 +20,5 @@ scratch/
 *.log
 __pycache__/
 *.pyc
+
+.vercel
