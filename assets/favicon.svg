@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="alimarPlaca" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00A852" />
+      <stop offset="100%" stop-color="#00823E" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <!-- Fundo Placa L Oficial DGT Espanha -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#alimarPlaca)" filter="url(#glow)" stroke="#FFFFFF" stroke-width="2" />
+  <!-- Borda interna fina característica -->
+  <rect x="7" y="7" width="50" height="50" rx="11" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1.2" />
+  <!-- Letra L Oficial -->
+  <path d="M21 16 H30 V40 H45 V48 H21 Z" fill="#FFFFFF" />
+  <!-- Detalhe sutil amarelo Alimar no canto -->
+  <circle cx="50" cy="14" r="3.5" fill="#FDE001" />
+</svg>

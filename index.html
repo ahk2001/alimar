@@ -1,0 +1,3017 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autoescuela Alimar | San Vicente del Raspeig · Formación Vial desde 1972</title>
+  <meta name="description" content="Centro de Formación Vial Autoescuela Alimar en San Vicente del Raspeig (Alicante). Permiso B, Motocicletas en pista propia, Camión, Tráiler, Autobús, CAP y Recuperación de Puntos DGT." />
+  <meta name="keywords" content="Autoescuela Alimar, autoescuela San Vicente del Raspeig, carnet de conducir Alicante, permiso B Alicante, autoescuela pista propia Alicante" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="color-scheme" content="light only" />
+  <meta name="supported-color-schemes" content="light only" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Autoescuela Alimar | San Vicente del Raspeig" />
+  <meta property="og:description" content="Centro de Formación Vial homologado DGT (A 0830-01) con circuito cerrado de prácticas propio. Más de 50 años formando conductores a la primera." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:image" content="assets/home.png" />
+
+  <!-- Favicon Oficial -->
+  <link rel="icon" type="image/webp" href="assets/fivecon.webp" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+
+  <!-- Google Fonts: Inter Tight (Forte, Compacta & Precisa), Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter+Tight:wght@600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================================
+       1. SISTEMA DE DISEÑO EDITORIAL RIGUROSO (AMARILLO, AZUL, BLANCO Y NEGRO)
+       ========================================================================== */
+    :root {
+      color-scheme: light only;
+      supported-color-schemes: light only;
+      -webkit-color-scheme: light only;
+      forced-color-adjust: none;
+
+      /* Paleta Exclusiva de Marca */
+      --brand-blue: #0020A2;
+      --brand-blue-dark: #051A68;
+      --brand-blue-soft: #EDF3FC;
+      --brand-blue-line: rgba(0, 32, 162, 0.16);
+
+      --brand-yellow: #FDE001;
+      --brand-yellow-gold: #FFBE01;
+      --brand-yellow-soft: #FFFDE6;
+
+      --pure-black: #05070C;
+      --black-surface: #0E131E;
+      --black-card: #151C2C;
+      --pure-white: #FFFFFF;
+
+      --neutral-canvas: #FFFFFF;
+      --neutral-warm: #F8FAFC;
+      --neutral-border: #E2E8F0;
+      --neutral-border-dark: rgba(255, 255, 255, 0.14);
+
+      /* Tipografía */
+      --text-black: #05070C;
+      --text-body: #2B3344;
+      --text-muted: #64748B;
+      --text-white: #FFFFFF;
+      --text-on-dark-muted: #9AA6BA;
+
+      --font-display: 'Inter Tight', sans-serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+      --container-max: 1280px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: var(--font-sans);
+      color: var(--text-body);
+      background-color: var(--neutral-canvas);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: clip;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: clip;
+      line-height: 1.65;
+      background-color: var(--neutral-canvas);
+    }
+
+    main {
+      display: block;
+      width: 100%;
+      position: relative;
+    }
+
+    .container {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 0 3.5rem;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--text-black);
+      line-height: 1.12;
+      letter-spacing: -0.025em;
+    }
+
+    p {
+      color: var(--text-body);
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s var(--ease-editorial);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .section-editorial-padding {
+      padding: 7rem 0;
+    }
+
+    @media (min-width: 1024px) {
+      .section-editorial-padding {
+        padding: 8.5rem 0;
+      }
+    }
+
+    /* Cabecera Editorial de Sección */
+    .section-editorial-header {
+      max-width: 860px;
+      margin-bottom: 4.5rem;
+    }
+
+    .section-editorial-index {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brand-blue);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-editorial-index.on-dark {
+      color: var(--brand-yellow);
+    }
+
+    .section-editorial-index::before {
+      content: "";
+      width: 18px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    .section-editorial-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.3rem, 4.4vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: var(--text-black);
+      margin-bottom: 1.35rem;
+    }
+
+    .section-editorial-title em {
+      font-style: normal;
+      color: var(--brand-blue);
+    }
+
+    .section-editorial-title.on-dark {
+      color: var(--pure-white);
+    }
+
+    .section-editorial-title.on-dark em {
+      color: var(--brand-yellow);
+    }
+
+    .section-editorial-desc {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      max-width: 680px;
+    }
+
+    .section-editorial-desc.on-dark {
+      color: var(--text-on-dark-muted);
+    }
+
+    /* Botones Editoriales */
+    .btn-editorial {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 14px 30px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.98rem;
+      transition: all 0.25s var(--ease-editorial);
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .btn-editorial:active {
+      transform: scale(0.98);
+    }
+
+    .btn-blue {
+      background: var(--brand-blue);
+      color: var(--pure-white) !important;
+      border: 1.5px solid var(--brand-blue);
+    }
+
+    .btn-blue:hover {
+      background: var(--brand-blue-dark);
+      border-color: var(--brand-blue-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(0, 32, 162, 0.25);
+    }
+
+    .btn-yellow {
+      background: var(--brand-yellow);
+      color: var(--pure-black) !important;
+      border: 1.5px solid var(--brand-yellow);
+      font-weight: 800;
+    }
+
+    .btn-yellow:hover {
+      background: #FFFFFF;
+      color: var(--pure-black) !important;
+      border-color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-dark {
+      background: transparent;
+      color: var(--text-black);
+      border: 1.5px solid var(--text-black);
+    }
+
+    .btn-outline-dark:hover {
+      background: var(--text-black);
+      color: var(--pure-white) !important;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-white {
+      background: transparent;
+      color: var(--pure-white);
+      border: 1.5px solid rgba(255, 255, 255, 0.35);
+    }
+
+    .btn-outline-white:hover {
+      background: var(--pure-white);
+      color: var(--pure-black) !important;
+      border-color: var(--pure-white);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       2. TOP EDITORIAL NAV & FULLSCREEN OVERLAY
+       ========================================================================== */
+    .editorial-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      padding: 20px 24px;
+      pointer-events: none;
+      transition: all 0.3s ease;
+      opacity: 0;
+      transform: translateY(-20px);
+      animation: navFadeDown 0.9s var(--ease-editorial) 0.3s forwards;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-nav {
+        padding: 28px 0;
+      }
+    }
+
+    .editorial-nav.scrolled {
+      background: rgba(5, 7, 12, 0.94);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 16px 0;
+    }
+
+    @keyframes navFadeDown {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .editorial-nav-inner {
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-nav-inner {
+        padding: 0 3.5rem;
+      }
+    }
+
+    .editorial-nav-inner > * {
+      pointer-events: auto;
+    }
+
+    .editorial-brand-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .editorial-brand-link:hover {
+      transform: translateY(-1px) scale(1.02);
+      opacity: 0.95;
+    }
+
+    .editorial-brand-logo {
+      height: 42px;
+      width: auto;
+      object-fit: contain;
+      display: block;
+      border-radius: 4px;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45));
+      transition: height 0.3s ease;
+    }
+
+    .editorial-nav.scrolled .editorial-brand-logo {
+      height: 38px;
+    }
+
+    @media (max-width: 768px) {
+      .editorial-brand-logo {
+        height: 36px;
+      }
+      .editorial-nav.scrolled .editorial-brand-logo {
+        height: 32px;
+      }
+    }
+
+    .editorial-brand-text {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: -0.01em;
+      text-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+    }
+
+    .editorial-brand-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--brand-yellow);
+    }
+
+    .editorial-menu-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #FFFFFF;
+      color: var(--pure-black);
+      padding: 9px 20px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+      transition: transform 0.2s ease, background 0.2s ease;
+      cursor: pointer;
+    }
+
+    .editorial-menu-btn:hover {
+      background: var(--brand-yellow);
+      transform: scale(1.04);
+    }
+
+    .editorial-burger-icon {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(5, 7, 12, 0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+    }
+
+    .editorial-burger-icon span {
+      display: block;
+      width: 11px;
+      height: 1.8px;
+      background: var(--pure-black);
+      border-radius: 1px;
+    }
+
+    /* Menu Overlay */
+    .editorial-overlay-menu {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 7, 12, 0.97);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      z-index: 1100;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.35s var(--ease-editorial);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 32px 28px 40px;
+    }
+
+    @media (min-width: 768px) {
+      .editorial-overlay-menu {
+        padding: 40px 60px 48px;
+      }
+    }
+
+    .editorial-overlay-menu.is-open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .overlay-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .overlay-close-btn {
+      color: #FFFFFF;
+      font-size: 0.92rem;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      cursor: pointer;
+    }
+
+    .overlay-close-btn:hover {
+      background: var(--brand-yellow);
+      color: var(--pure-black);
+      border-color: var(--brand-yellow);
+    }
+
+    .overlay-nav-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+      max-width: 650px;
+      margin: auto 0;
+    }
+
+    .overlay-nav-list a {
+      font-family: var(--font-sans);
+      font-size: clamp(1.25rem, 2.8vw, 1.95rem);
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.25;
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      transition: all 0.2s ease;
+    }
+
+    .overlay-nav-list a span.nav-index {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--brand-yellow);
+      font-weight: 700;
+    }
+
+    .overlay-nav-list a:hover {
+      color: #FFFFFF;
+      transform: translateX(8px);
+    }
+
+    .overlay-bottom-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      color: #94A3B8;
+      font-size: 0.92rem;
+    }
+
+    /* ==========================================================================
+       3. HERO EDITORIAL (AMARILLO, BLANCO Y NEGRO PURO)
+       ========================================================================== */
+    .hero-editorial {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      padding-bottom: clamp(48px, 8vh, 88px);
+      padding-top: 120px;
+      background: var(--pure-black);
+    }
+
+    .hero-bg-stage {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .hero-bg-stage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      filter: brightness(0.92) contrast(1.04);
+      transform: scale(1.08);
+      animation: heroSoftScale 3s var(--ease-editorial) forwards;
+      will-change: transform;
+    }
+
+    @keyframes heroSoftScale {
+      0% { transform: scale(1.08); }
+      100% { transform: scale(1.0); }
+    }
+
+    .hero-vignette {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background:
+        linear-gradient(180deg, rgba(5, 7, 12, 0.72) 0%, rgba(5, 7, 12, 0) 32%),
+        linear-gradient(90deg, rgba(5, 7, 12, 0.92) 0%, rgba(5, 7, 12, 0.75) 45%, rgba(5, 7, 12, 0.25) 75%, rgba(5, 7, 12, 0.05) 100%),
+        linear-gradient(0deg, rgba(5, 7, 12, 0.96) 0%, transparent 26%);
+      pointer-events: none;
+    }
+
+    .hero-editorial-inner {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .hero-editorial-inner {
+        padding: 0 3.5rem;
+      }
+    }
+
+    .hero-lead-editorial {
+      max-width: 900px;
+    }
+
+    .hero-editorial-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 6.2vw, 5.2rem);
+      font-weight: 800;
+      line-height: 1.0;
+      letter-spacing: -0.035em;
+      color: #FFFFFF;
+      margin: 0;
+      text-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transform: translateY(32px);
+      animation: heroTitleSlideUp 1.1s var(--ease-editorial) 0.6s forwards;
+    }
+
+    @keyframes heroTitleSlideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero-editorial-title em {
+      font-style: normal;
+      color: var(--brand-yellow);
+    }
+
+    /* ==========================================================================
+       4. SECCIÓN DE MÉTRICAS EDITORIAL (ESTILO PERIÓDICO / GALERÍA)
+       ========================================================================== */
+    .metrics-section {
+      background: var(--neutral-canvas);
+      border-bottom: 1px solid var(--neutral-border);
+      padding: 4.5rem 0;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .metrics-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+      }
+    }
+
+    .metric-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-left: 2px solid var(--neutral-border);
+      padding-left: 1.75rem;
+      transition: border-color 0.25s ease;
+    }
+
+    .metric-item:hover {
+      border-left-color: var(--brand-blue);
+    }
+
+    .metric-number {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 400;
+      color: var(--brand-blue);
+      line-height: 1;
+      margin-bottom: 0.65rem;
+    }
+
+    .metric-label {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-black);
+      margin-bottom: 0.35rem;
+    }
+
+    .metric-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ==========================================================================
+       5. LOS 3 PILARES (DISEÑO EDITORIAL MODERNO CON ICONOS & CHECKLIST)
+       ========================================================================== */
+    .pillars-section {
+      background: var(--neutral-warm);
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .pillars-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      .pillars-editorial-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .pillar-editorial-card {
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 32, 162, 0.08);
+      border-radius: 20px;
+      padding: 2rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02);
+      transition: all 0.3s var(--ease-editorial);
+      overflow: hidden;
+    }
+
+    .pillar-editorial-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--brand-blue), var(--brand-yellow));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .pillar-editorial-card:hover {
+      border-color: rgba(0, 32, 162, 0.28);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px -10px rgba(0, 32, 162, 0.12), 0 6px 16px -3px rgba(0, 0, 0, 0.04);
+    }
+
+    .pillar-editorial-card:hover::before {
+      opacity: 1;
+    }
+
+    .pillar-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.75rem;
+    }
+
+    .pillar-icon-wrap {
+      width: 56px;
+      height: 56px;
+      border-radius: 16px;
+      background: var(--brand-blue-soft);
+      color: var(--brand-blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
+    }
+
+    .pillar-editorial-card:hover .pillar-icon-wrap {
+      transform: scale(1.08) rotate(-2deg);
+      background: var(--brand-blue);
+      color: #FFFFFF;
+    }
+
+    .pillar-badge-pill {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      color: var(--brand-blue);
+      background: rgba(0, 32, 162, 0.06);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      border: 1px solid rgba(0, 32, 162, 0.12);
+    }
+
+    .pillar-editorial-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--text-black);
+      margin-bottom: 0.85rem;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+    }
+
+    .pillar-editorial-card p {
+      font-size: 0.95rem;
+      color: #475569;
+      line-height: 1.7;
+      margin-bottom: 1.75rem;
+    }
+
+    .pillar-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px dashed rgba(0, 32, 162, 0.12);
+      padding-top: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    .pillar-checklist li {
+      font-size: 0.86rem;
+      color: #334155;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pillar-check-icon {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--brand-blue-soft);
+      color: var(--brand-blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.72rem;
+      font-weight: 800;
+    }
+
+    /* ==========================================================================
+       6. CATÁLOGO DE PERMISOS (TABLA EDITORIAL SOBRIA & CENTRADA)
+       ========================================================================== */
+    .permisos-section {
+      background: var(--neutral-canvas);
+    }
+
+    .permisos-section .section-editorial-header {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3rem;
+    }
+
+    .permisos-section .section-editorial-header .section-editorial-desc {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 640px;
+    }
+
+    .filter-tabs-editorial {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 3.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .filter-tab-editorial-btn {
+      padding: 9px 22px;
+      border-radius: 9999px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      border: 1px solid var(--neutral-border);
+      background: var(--pure-white);
+      transition: all 0.25s var(--ease-editorial);
+      cursor: pointer;
+    }
+
+    .filter-tab-editorial-btn:hover {
+      color: var(--brand-blue);
+      border-color: var(--brand-blue);
+      background: var(--brand-blue-soft);
+      transform: translateY(-1px);
+    }
+
+    .filter-tab-editorial-btn.active {
+      color: var(--pure-white);
+      background: var(--brand-blue);
+      border-color: var(--brand-blue);
+      box-shadow: 0 4px 14px rgba(0, 32, 162, 0.22);
+    }
+
+    .permisos-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    @media (min-width: 768px) {
+      .permisos-editorial-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (min-width: 1040px) {
+      .permisos-editorial-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    .permiso-editorial-card {
+      background: var(--pure-white);
+      border: 1px solid var(--neutral-border);
+      border-radius: 16px;
+      padding: 2rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      min-width: 0;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s var(--ease-editorial);
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0 4px 16px -2px rgba(5, 7, 12, 0.04);
+    }
+
+    .permiso-editorial-card:hover {
+      border-color: var(--brand-blue);
+      box-shadow: 0 16px 36px -8px rgba(0, 32, 162, 0.14);
+      transform: translateY(-4px);
+    }
+
+    .permiso-editorial-card.is-expanded {
+      border-color: var(--brand-blue);
+      box-shadow: 0 20px 44px -8px rgba(0, 32, 162, 0.18);
+    }
+
+    .permiso-summary-block {
+      user-select: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+
+    .permiso-card-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.85rem;
+      border-bottom: 1px solid rgba(0, 32, 162, 0.08);
+    }
+
+    .permiso-code-roman {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--brand-blue);
+      letter-spacing: 0.02em;
+    }
+
+    .permiso-status-tag {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 3px 9px;
+      border-radius: 9999px;
+      background: var(--brand-blue-soft);
+      color: var(--brand-blue);
+      border: 1px solid rgba(0, 32, 162, 0.12);
+    }
+
+    .permiso-editorial-title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-black);
+      margin: 0.25rem 0 0.5rem 0;
+      line-height: 1.25;
+      text-align: center;
+    }
+
+    .permiso-quick-info {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      margin: 0 0 1.25rem 0;
+      text-align: center;
+    }
+
+    .permiso-toggle-indicator {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 10px 16px;
+      border-radius: 9999px;
+      background: var(--brand-blue-soft);
+      border: 1px solid rgba(0, 32, 162, 0.15);
+      font-family: var(--font-sans);
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--brand-blue);
+      letter-spacing: 0.01em;
+      transition: all 0.25s ease;
+      margin-top: auto;
+    }
+
+    .permiso-editorial-card:hover .permiso-toggle-indicator {
+      background: var(--brand-blue);
+      color: var(--pure-white);
+      border-color: var(--brand-blue);
+    }
+
+    .permiso-toggle-indicator .toggle-symbol {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--pure-white);
+      color: var(--brand-blue);
+      font-size: 0.9rem;
+      font-weight: 800;
+      transition: transform 0.3s var(--ease-editorial), background 0.25s ease, color 0.25s ease;
+    }
+
+    .permiso-editorial-card:hover .permiso-toggle-indicator .toggle-symbol {
+      background: var(--brand-yellow);
+      color: var(--pure-black);
+    }
+
+    .permiso-editorial-card.is-expanded .permiso-toggle-indicator {
+      background: var(--pure-black);
+      color: var(--pure-white);
+      border-color: var(--pure-black);
+    }
+
+    .permiso-editorial-card.is-expanded .permiso-toggle-indicator .toggle-symbol {
+      transform: rotate(45deg);
+      background: var(--brand-yellow);
+      color: var(--pure-black);
+    }
+
+    .permiso-collapsible-content {
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+      margin-top: 0;
+      text-align: center;
+      transition: max-height 0.45s var(--ease-editorial), opacity 0.35s ease, margin 0.35s ease;
+    }
+
+    .permiso-editorial-card.is-expanded .permiso-collapsible-content {
+      max-height: 650px;
+      opacity: 1;
+      margin-top: 1.35rem;
+      border-top: 1px dashed rgba(0, 32, 162, 0.15);
+      padding-top: 1.25rem;
+    }
+
+    .permiso-editorial-desc {
+      font-size: 0.92rem;
+      color: var(--text-body);
+      line-height: 1.65;
+      margin-bottom: 1.25rem;
+      text-align: center;
+    }
+
+    .permiso-requirements-block {
+      text-align: left;
+      margin: 0 auto 1.5rem auto;
+      padding: 0.85rem 1rem;
+      background: #F8FAFC;
+      border-radius: 10px;
+      border: 1px solid var(--neutral-border);
+      width: 100%;
+    }
+
+    .permiso-req-row {
+      font-size: 0.84rem;
+      color: var(--text-body);
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      margin-bottom: 0.4rem;
+      line-height: 1.45;
+    }
+
+    .permiso-req-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .permiso-req-row::before {
+      content: "✓";
+      color: var(--brand-blue);
+      font-weight: 800;
+      font-size: 0.8rem;
+    }
+
+    /* ==========================================================================
+       7. RECUPERACIÓN DE PUNTOS DGT (DISEÑO MONOLÍTICO NEGRO Y AMARILLO)
+       ========================================================================== */
+    .puntos-monolith-section {
+      background: var(--pure-black);
+      color: var(--pure-white);
+      position: relative;
+    }
+
+    .puntos-editorial-layout {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3.5rem;
+      align-items: center;
+    }
+
+    @media (min-width: 1024px) {
+      .puntos-editorial-layout {
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 5rem;
+      }
+    }
+
+    .puntos-tier-item {
+      border-left: 2px solid var(--brand-yellow);
+      padding-left: 1.75rem;
+      margin-bottom: 2.25rem;
+    }
+
+    .puntos-tier-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.65rem;
+      flex-wrap: wrap;
+    }
+
+    .puntos-tier-header h3 {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--pure-white);
+    }
+
+    .puntos-tier-hours {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--brand-yellow);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .puntos-tier-desc {
+      font-size: 0.95rem;
+      color: var(--text-on-dark-muted);
+      line-height: 1.7;
+    }
+
+    .puntos-image-frame {
+      border: 1px solid var(--neutral-border-dark);
+      background: var(--black-card);
+      overflow: hidden;
+      border-radius: 18px;
+    }
+
+    .puntos-image-frame img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      filter: grayscale(15%) contrast(1.05);
+    }
+
+    .puntos-image-caption {
+      padding: 1.75rem;
+      border-top: 1px solid var(--neutral-border-dark);
+    }
+
+    /* ==========================================================================
+       8. HUB PROFESIONAL: CAP, ADR Y MAQUINARIA (GRID 2x2 COMPACTO Y EQUILIBRADO)
+       ========================================================================== */
+    .prof-editorial-section {
+      background: var(--neutral-warm);
+    }
+
+    .prof-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 860px) {
+      .prof-editorial-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.75rem;
+      }
+    }
+
+    .prof-editorial-card {
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 32, 162, 0.08);
+      border-radius: 18px;
+      padding: 1.85rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.04), 0 2px 6px -1px rgba(15, 23, 42, 0.02);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s var(--ease-editorial);
+    }
+
+    .prof-editorial-card:hover {
+      border-color: rgba(0, 32, 162, 0.28);
+      transform: translateY(-4px);
+      box-shadow: 0 16px 36px -8px rgba(0, 32, 162, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+    }
+
+    .prof-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 0.85rem;
+      flex-wrap: wrap;
+    }
+
+    .prof-card-title-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .prof-icon-wrap {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: var(--brand-blue-soft);
+      color: var(--brand-blue);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    }
+
+    .prof-editorial-card:hover .prof-icon-wrap {
+      background: var(--brand-blue);
+      color: #FFFFFF;
+      transform: scale(1.05);
+    }
+
+    .prof-editorial-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--text-black);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin: 0;
+    }
+
+    .prof-duration-pill {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--brand-blue);
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: rgba(0, 32, 162, 0.06);
+      border: 1px solid rgba(0, 32, 162, 0.1);
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .prof-editorial-card p {
+      font-size: 0.9rem;
+      color: #475569;
+      line-height: 1.55;
+      margin-bottom: 1rem;
+    }
+
+    .prof-tags-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 6px 12px;
+      margin-bottom: 1.25rem;
+      padding-top: 0.85rem;
+      border-top: 1px dashed rgba(0, 32, 162, 0.1);
+    }
+
+    @media (min-width: 500px) {
+      .prof-tags-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .prof-tag-item {
+      font-size: 0.82rem;
+      color: #334155;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .prof-check-icon {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: rgba(37, 176, 95, 0.12);
+      color: #16A34A;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.68rem;
+      font-weight: 800;
+    }
+
+    .prof-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .prof-fundae-note {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #64748B;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .prof-cta-btn {
+      padding: 11px 22px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .prof-card-footer {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .prof-cta-btn {
+        width: 100%;
+      }
+    }
+
+    /* ==========================================================================
+       9. INSTALACIONES Y MURAL DE ALUMNOS (FOTOGRAFÍA PURA)
+       ========================================================================== */
+    .gallery-editorial-section {
+      background: var(--neutral-canvas);
+    }
+
+    .gallery-lead-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    @media (min-width: 768px) {
+      .gallery-lead-grid {
+        grid-template-columns: 1.2fr 1fr 0.9fr;
+      }
+    }
+
+    .gallery-photo-item {
+      position: relative;
+      overflow: hidden;
+      background: var(--pure-black);
+      border: 1px solid var(--neutral-border);
+      border-radius: 18px;
+    }
+
+    .gallery-photo-item img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      transition: transform 0.6s var(--ease-editorial);
+    }
+
+    .gallery-photo-item:hover img {
+      transform: scale(1.04);
+    }
+
+    .gallery-photo-caption {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 1.5rem;
+      background: linear-gradient(to top, rgba(5, 7, 12, 0.95), transparent);
+      color: var(--pure-white);
+    }
+
+    .gallery-photo-caption span {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--brand-yellow);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    .gallery-photo-caption h4 {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--pure-white);
+    }
+
+    /* Students 4-grid */
+    .students-editorial-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .students-editorial-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .student-editorial-card {
+      position: relative;
+      border: 1px solid var(--neutral-border);
+      background: var(--pure-black);
+      overflow: hidden;
+      aspect-ratio: 3 / 4;
+      border-radius: 16px;
+    }
+
+    .student-editorial-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s var(--ease-editorial);
+    }
+
+    .student-editorial-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .student-editorial-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      background: linear-gradient(to top, rgba(5, 7, 12, 0.9), transparent);
+      color: var(--pure-white);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    /* ==========================================================================
+       10. OPINIONES (TIPOGRAFÍA EDITORIAL DE PRENSA)
+       ========================================================================== */
+    .reviews-editorial-section {
+      background: var(--neutral-warm);
+      border-top: 1px solid var(--neutral-border);
+      border-bottom: 1px solid var(--neutral-border);
+    }
+
+    .reviews-editorial-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      margin-bottom: 5.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .reviews-editorial-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .review-editorial-card {
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 32, 162, 0.08);
+      border-radius: 20px;
+      padding: 2.75rem 2.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 16px -2px rgba(15, 23, 42, 0.04);
+      transition: all 0.3s var(--ease-editorial);
+    }
+
+    .review-editorial-card:hover {
+      border-color: rgba(0, 32, 162, 0.28);
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px -10px rgba(0, 32, 162, 0.12);
+    }
+
+    .review-quote-text {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-style: normal;
+      color: var(--text-black);
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+
+    .review-author-meta {
+      border-top: 1px solid var(--neutral-border);
+      padding-top: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .review-author-name {
+      font-weight: 800;
+      font-size: 0.95rem;
+      color: var(--text-black);
+    }
+
+    .review-author-course {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    /* FAQ Minimalista */
+    .faq-editorial-container {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .faq-editorial-item {
+      border-bottom: 1px solid var(--neutral-border);
+      padding: 1.75rem 0;
+    }
+
+    .faq-editorial-item:first-child {
+      border-top: 1px solid var(--neutral-border);
+    }
+
+    .faq-editorial-question {
+      width: 100%;
+      text-align: left;
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--text-black);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      cursor: pointer;
+    }
+
+    .faq-editorial-indicator {
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      color: var(--brand-blue);
+      transition: transform 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .faq-editorial-item.active .faq-editorial-indicator {
+      transform: rotate(45deg);
+    }
+
+    .faq-editorial-answer {
+      display: none;
+      padding-top: 1.15rem;
+      font-size: 1rem;
+      color: var(--text-body);
+      line-height: 1.75;
+      max-width: 760px;
+    }
+
+    .faq-editorial-item.active .faq-editorial-answer {
+      display: block;
+    }
+
+    /* ==========================================================================
+       11. LOCALIZACIÓN & SEDE SAN VICENTE (ESTILO ARQUITECTÓNICO)
+       ========================================================================== */
+    .contact-editorial-section {
+      background: var(--neutral-canvas);
+    }
+
+    .contact-architectural-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      border: 1px solid var(--neutral-border);
+      background: var(--pure-white);
+    }
+
+    @media (min-width: 1024px) {
+      .contact-architectural-grid {
+        grid-template-columns: 1.15fr 0.85fr;
+      }
+    }
+
+    .contact-text-column {
+      padding: 3rem 2.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .contact-text-column {
+        padding: 4.5rem;
+      }
+    }
+
+    .contact-details-table {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin: 2.5rem 0 3rem;
+      border-top: 1px solid var(--neutral-border);
+      padding-top: 2rem;
+    }
+
+    @media (min-width: 640px) {
+      .contact-details-table {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    .contact-field-item label {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--brand-blue);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-field-item p {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-black);
+      line-height: 1.45;
+    }
+
+    .contact-field-item span {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .contact-photo-column {
+      position: relative;
+      background: var(--pure-black);
+      min-height: 400px;
+      border-top: 1px solid var(--neutral-border);
+    }
+
+    @media (min-width: 1024px) {
+      .contact-photo-column {
+        border-top: none;
+        border-left: 1px solid var(--neutral-border);
+      }
+    }
+
+    .contact-photo-column img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .contact-photo-overlay {
+      position: absolute;
+      inset: auto 0 0 0;
+      padding: 2rem;
+      background: linear-gradient(to top, rgba(5, 7, 12, 0.95), transparent);
+      color: var(--pure-white);
+    }
+
+    /* ==========================================================================
+       12. FOOTER (AZUL MARCA Y TIPOGRAFÍA EDITORIAL)
+       ========================================================================== */
+    .site-editorial-footer {
+      background: var(--pure-black);
+      color: var(--pure-white);
+      padding: 5.5rem 0 3.5rem;
+      border-top: 3px solid var(--brand-yellow);
+    }
+
+    .footer-columns-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      padding-bottom: 4rem;
+      border-bottom: 1px solid var(--neutral-border-dark);
+    }
+
+    @media (min-width: 768px) {
+      .footer-columns-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .footer-columns-grid {
+        grid-template-columns: 1.4fr 0.9fr 0.9fr 1fr;
+      }
+    }
+
+    .footer-col-title {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--brand-yellow);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-col-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .footer-col-links a {
+      font-size: 0.94rem;
+      color: #9AA6BA;
+    }
+
+    .footer-col-links a:hover {
+      color: var(--pure-white);
+      padding-left: 4px;
+    }
+
+    .footer-bottom-row {
+      padding-top: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      font-size: 0.85rem;
+      color: #64748B;
+    }
+
+    /* ==========================================================================
+       13. BOTÓN FLOTANTE WHATSAPP (AZUL PROFESIONAL & AMARILLO MARCA)
+       ========================================================================== */
+    .floating-brand-wa {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 998;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--brand-blue);
+      color: var(--pure-white) !important;
+      padding: 12px 22px;
+      border-radius: 9999px;
+      font-weight: 700;
+      font-size: 0.92rem;
+      border: 1.5px solid var(--brand-yellow);
+      box-shadow: 0 12px 32px rgba(0, 32, 162, 0.4);
+      transition: all 0.25s ease;
+    }
+
+    .floating-brand-wa:hover {
+      background: var(--brand-blue-dark);
+      transform: translateY(-2px);
+      box-shadow: 0 16px 36px rgba(0, 32, 162, 0.55);
+    }
+
+    .wa-icon-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--brand-yellow);
+    }
+
+    /* ==========================================================================
+       14. ANIMACIONES ESCALONADAS POR SCROLL (PERFORMANCE PURA)
+       ========================================================================== */
+    .reveal-on-scroll {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.85s var(--ease-editorial), transform 0.85s var(--ease-editorial);
+      will-change: opacity, transform;
+    }
+
+    .reveal-on-scroll.is-revealed {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .delay-1 { transition-delay: 0.08s; }
+    .delay-2 { transition-delay: 0.16s; }
+    .delay-3 { transition-delay: 0.24s; }
+    .delay-4 { transition-delay: 0.32s; }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP NAV MINIMALISTA (MARCA A LA IZQUIERDA · MENU A LA DERECHA)
+       ======================================================================== -->
+  <nav class="editorial-nav" aria-label="Navegación principal">
+    <div class="editorial-nav-inner">
+      <a href="#inicio" class="editorial-brand-link" aria-label="Autoescuela Alimar - Inicio">
+        <img src="assets/logo.png" alt="Autoescuela Alimar - San Vicente del Raspeig" class="editorial-brand-logo" />
+      </a>
+
+      <button class="editorial-menu-btn" id="openMenuBtn" aria-label="Abrir menú de navegación">
+        <span>Menu</span>
+        <div class="editorial-burger-icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Fullscreen Minimalist Overlay Menu -->
+  <div class="editorial-overlay-menu" id="overlayMenu" aria-hidden="true">
+    <div class="overlay-top-row">
+      <a href="#inicio" class="editorial-brand-link overlay-nav-link" aria-label="Autoescuela Alimar - Inicio">
+        <img src="assets/logo.png" alt="Autoescuela Alimar" class="editorial-brand-logo" />
+      </a>
+      <button class="overlay-close-btn" id="closeMenuBtn" aria-label="Cerrar menú">
+        <span>Cerrar</span>
+      </button>
+    </div>
+
+    <div class="overlay-nav-list">
+      <a href="#inicio" class="overlay-nav-link"><span class="nav-index">01</span><span>Inicio</span></a>
+      <a href="#metodo" class="overlay-nav-link"><span class="nav-index">02</span><span>Los Tres Pilares</span></a>
+      <a href="#permisos" class="overlay-nav-link"><span class="nav-index">03</span><span>Permisos de Conducir</span></a>
+      <a href="#puntos-dgt" class="overlay-nav-link"><span class="nav-index">04</span><span>Recuperación de Puntos DGT</span></a>
+      <a href="#profesional" class="overlay-nav-link"><span class="nav-index">05</span><span>Transporte Profesional y CAP</span></a>
+      <a href="#instalaciones" class="overlay-nav-link"><span class="nav-index">06</span><span>Circuito Propio y Flota</span></a>
+      <a href="#opiniones" class="overlay-nav-link"><span class="nav-index">07</span><span>Opiniones Verificadas</span></a>
+      <a href="#contacto" class="overlay-nav-link"><span class="nav-index">08</span><span>Sede y Contacto</span></a>
+    </div>
+
+    <div class="overlay-bottom-bar">
+      <div>
+        Calle Villafranqueza, 53 · 03690 San Vicente del Raspeig (Alicante)
+      </div>
+      <div style="display:flex; gap:2rem;">
+        <a href="tel:+34965201566" style="color:#FFFFFF; font-weight:700;">965 20 15 66</a>
+        <a href="https://wa.me/34747467742" target="_blank" rel="noopener noreferrer" style="color:var(--brand-yellow); font-weight:700;">WhatsApp: +34 747 46 77 42</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       HERO CINEMATOGRÁFICO EDITORIAL (HOME LIMPIA)
+       ======================================================================== -->
+  <section class="hero-editorial" id="inicio">
+    <div class="hero-bg-stage" aria-hidden="true">
+      <img src="assets/home.png" alt="Autoescuela Alimar - San Vicente del Raspeig" />
+    </div>
+
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <div class="hero-editorial-inner">
+      <div class="hero-lead-editorial">
+        <h1 class="hero-editorial-title">
+          Aprende con calma.<br />
+          Aprueba <em>fácil.</em>
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SECCIÓN DE MÉTRICAS EDITORIAL (ESTILO PERIÓDICO / GALERÍA)
+       ======================================================================== -->
+  <section class="metrics-section">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric-item reveal-on-scroll delay-1">
+          <div class="metric-number">1972</div>
+          <div>
+            <div class="metric-label">Fundación en Alicante</div>
+            <div class="metric-sub">Más de medio siglo y tres generaciones formando conductores seguros.</div>
+          </div>
+        </div>
+
+        <div class="metric-item reveal-on-scroll delay-2">
+          <div class="metric-number">49,5%</div>
+          <div>
+            <div class="metric-label">Aprobados Práctico B</div>
+            <div class="metric-sub">Superando en +7,6 puntos la media oficial provincial de la DGT.</div>
+          </div>
+        </div>
+
+        <div class="metric-item reveal-on-scroll delay-3">
+          <div class="metric-number">Propio</div>
+          <div>
+            <div class="metric-label">Circuito de Prácticas</div>
+            <div class="metric-sub">Entrenamiento sin esperas para motocicletas, camiones y remolques.</div>
+          </div>
+        </div>
+
+        <div class="metric-item reveal-on-scroll delay-4">
+          <div class="metric-number">95%</div>
+          <div>
+            <div class="metric-label">Aptos en Examen CAP</div>
+            <div class="metric-sub">Centro Homologado oficial para formación de transporte profesional.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       LOS 3 PILARES (DISEÑO EDITORIAL ASIMÉTRICO)
+       ======================================================================== -->
+  <section class="section-editorial-padding pillars-section" id="metodo">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">MÉTODO FORMATIVO</span>
+        <h2 class="section-editorial-title">
+          Tres principios para una conducción <em>rigurosa y serena</em>
+        </h2>
+        <p class="section-editorial-desc">
+          Un modelo de enseñanza basado en el control técnico, la tranquilidad docente y la optimización de tus horas de práctica.
+        </p>
+      </div>
+
+      <div class="pillars-editorial-grid">
+        <!-- Pilar 1: Circuito Privado -->
+        <div class="pillar-editorial-card reveal-on-scroll delay-1">
+          <div>
+            <div class="pillar-card-top">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <!-- SVG Circuito Cerrado -->
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                  <line x1="4" y1="22" x2="4" y2="15"></line>
+                </svg>
+              </div>
+              <span class="pillar-badge-pill">PILAR 01</span>
+            </div>
+            <h3>Instalaciones Propias de Maniobras</h3>
+            <p>
+              La destreza técnica se adquiere sin la presión del tráfico inicial. Disponemos de un centro de prácticas cerrado donde entrenas las maniobras exactas de examen con la moto, camión o remolque sin esperas ni desplazamientos forzados.
+            </p>
+          </div>
+          <ul class="pillar-checklist">
+            <li><span class="pillar-check-icon">✓</span> Circuito cerrado homologado propio en San Vicente</li>
+            <li><span class="pillar-check-icon">✓</span> Medidas exactas del examen oficial DGT</li>
+            <li><span class="pillar-check-icon">✓</span> Sin esperas ni desplazamientos fuera del municipio</li>
+          </ul>
+        </div>
+
+        <!-- Pilar 2: Pedagogía con Calma -->
+        <div class="pillar-editorial-card reveal-on-scroll delay-2">
+          <div>
+            <div class="pillar-card-top">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <!-- SVG Corazón & Conducción Serena -->
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <circle cx="12" cy="12" r="3"></circle>
+                  <line x1="12" y1="2" x2="12" y2="9"></line>
+                  <line x1="4.93" y1="19.07" x2="9.88" y2="14.12"></line>
+                  <line x1="19.07" y1="19.07" x2="14.12" y2="14.12"></line>
+                </svg>
+              </div>
+              <span class="pillar-badge-pill">PILAR 02</span>
+            </div>
+            <h3>Profesores Pacientes y Cercanos</h3>
+            <p>
+              La seguridad al volante nace de la confianza. Docentes reconocidos en San Vicente del Raspeig (Paco, Eduardo, María Ángeles, Javi, José, Enrique y Sonia) que enseñan referencias visuales claras y trucos de examen para eliminar cualquier rastro de nervios.
+            </p>
+          </div>
+          <ul class="pillar-checklist">
+            <li><span class="pillar-check-icon">✓</span> Equipo veterano con paciencia infinita comprobada</li>
+            <li><span class="pillar-check-icon">✓</span> Referencias visuales exactas para estacionar y circular</li>
+            <li><span class="pillar-check-icon">✓</span> Didáctica respetuosa sin gritos ni situaciones de estrés</li>
+          </ul>
+        </div>
+
+        <!-- Pilar 3: Rigor Tecnológico -->
+        <div class="pillar-editorial-card reveal-on-scroll delay-3">
+          <div>
+            <div class="pillar-card-top">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <!-- SVG Aula Virtual & Analítica -->
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                  <path d="M7 10l3 3 7-7"></path>
+                </svg>
+              </div>
+              <span class="pillar-badge-pill">PILAR 03</span>
+            </div>
+            <h3>Aula Virtual 24 Horas</h3>
+            <p>
+              Prepara la prueba teórica desde tu dispositivo con la base oficial de preguntas DGT actualizada de forma permanente. Nuestro seguimiento estadístico individual determina el momento exacto en el que estás preparado para el apto.
+            </p>
+          </div>
+          <ul class="pillar-checklist">
+            <li><span class="pillar-check-icon">✓</span> Base oficial de preguntas DGT actualizada a 2026</li>
+            <li><span class="pillar-check-icon">✓</span> Algoritmo de predicción de apto según tus estadísticas</li>
+            <li><span class="pillar-check-icon">✓</span> Acceso 24/7 multiplataforma (móvil, tablet y PC)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       CATÁLOGO DE PERMISOS DGT (TABLA EDITORIAL)
+       ======================================================================== -->
+  <section class="section-editorial-padding permisos-section" id="permisos">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">CATÁLOGO OFICIAL</span>
+        <h2 class="section-editorial-title">
+          Permisos de Conducir y <em>Especialidades</em>
+        </h2>
+        <p class="section-editorial-desc">
+          Desde turismos particulares hasta conjuntos pesados articulados y transporte colectivo de viajeros.
+        </p>
+      </div>
+
+      <!-- Filtro Minimalista Centrado -->
+      <div class="filter-tabs-editorial reveal-on-scroll delay-1" role="tablist">
+        <button class="filter-tab-editorial-btn active" data-filter="all">Todos los permisos</button>
+        <button class="filter-tab-editorial-btn" data-filter="coche">Coche y Remolques</button>
+        <button class="filter-tab-editorial-btn" data-filter="moto">Motocicletas</button>
+        <button class="filter-tab-editorial-btn" data-filter="pesados">Camión y Autobús</button>
+      </div>
+
+      <!-- Grid de Permisos Centrado y Equilibrado -->
+      <div class="permisos-editorial-grid" id="permisosGrid">
+
+        <!-- 1. Permiso B -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-1" data-category="coche" style="border-top: 3px solid var(--brand-blue);">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">PERMISO B</span>
+              <span class="permiso-status-tag">CONDUCCIÓN GENERAL</span>
+            </div>
+            <h3 class="permiso-editorial-title">Carnet de Coche</h3>
+            <p class="permiso-quick-info">Turismos y furgonetas hasta 3.500 kg · Edad mínima 18 años</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Clases teóricas presenciales y plataforma online interactiva, complementadas con prácticas dinámicas en Audi Q3 por las rutas oficiales de examen en Alicante.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Edad mínima: 18 años cumplidos.</div>
+              <div class="permiso-req-row">Flota moderna: Audi Q3 y compactos de fácil manejo.</div>
+              <div class="permiso-req-row">49,49% de aprobados oficiales en la prueba práctica DGT.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20informaci%C3%B3n%20sobre%20el%20Permiso%20B%20de%20coche." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar Permiso B por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2. Permiso A2 -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-2" data-category="moto">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">PERMISO A2</span>
+              <span class="permiso-status-tag">CIRCUITO PROPIO</span>
+            </div>
+            <h3 class="permiso-editorial-title">Motocicleta hasta 35 kW</h3>
+            <p class="permiso-quick-info">Motos hasta 47 CV · Prácticas en circuito cerrado exclusivo</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Prácticas de maniobras, equilibrio y velocidad cronometrada en nuestro circuito cerrado propio con las medidas exactas del examen oficial DGT.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Edad mínima: 18 años cumplidos.</div>
+              <div class="permiso-req-row">Exento de examen teórico común si ya tienes el Permiso B.</div>
+              <div class="permiso-req-row">Paso directo al Permiso A tras 2 años con el carnet A2.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20informaci%C3%B3n%20para%20el%20Permiso%20A2%20de%20moto." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar Permiso A2 por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3. Permiso A -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-3" data-category="moto">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">CURSO PERMISO A</span>
+              <span class="permiso-status-tag">SIN EXAMEN DGT</span>
+            </div>
+            <h3 class="permiso-editorial-title">Gran Cilindrada</h3>
+            <p class="permiso-quick-info">Motos sin límite de potencia · Curso oficial de 9h en fin de semana</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Habilita para pilotar cualquier motocicleta sin limitación de potencia ni cilindrada. Curso oficial impartido de forma intensiva en fin de semana.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Requisito previo: 2 años de posesión del carnet A2.</div>
+              <div class="permiso-req-row">Estructura oficial: 3h teóricas + 4h circuito propio.</div>
+              <div class="permiso-req-row">2h de circulación en vías abiertas (sin examen DGT).</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20quiero%20reservar%20plaza%20para%20el%20Curso%20del%20Permiso%20A." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Reservar Curso Permiso A por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4. Permisos AM y A1 -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-1" data-category="moto">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">PERMISOS AM · A1</span>
+              <span class="permiso-status-tag">DESDE 15 Y 16 AÑOS</span>
+            </div>
+            <h3 class="permiso-editorial-title">Ciclomotores y 125 cc</h3>
+            <p class="permiso-quick-info">Iniciación vial · Ciclomotores y motos ligeras hasta 11 kW</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Primer paso en el mundo de las dos ruedas con formación orientada al control de estabilidad y anticipación del tráfico urbano en pista privada.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Permiso AM: Ciclomotores hasta 50 cc desde los 15 años.</div>
+              <div class="permiso-req-row">Permiso A1: Motos hasta 125 cc (11 kW) desde los 16 años.</div>
+              <div class="permiso-req-row">Prácticas seguras en circuito cerrado antes de circular.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20deseo%20informaci%C3%B3n%20sobre%20los%20permisos%20AM%20y%20A1." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-outline-dark" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar AM / A1 por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5. Remolques B96 y B+E -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-2" data-category="coche">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">AUTORIZACIÓN B96 · B+E</span>
+              <span class="permiso-status-tag">HASTA 7.000 KG</span>
+            </div>
+            <h3 class="permiso-editorial-title">Remolques y Caravanas</h3>
+            <p class="permiso-quick-info">Caravanas pesadas, vans de caballos y remolques de trabajo</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Para conjuntos de vehículos que superen los 3.500 kg de MMA: embarcaciones, transporte ecuestre de caballos, caravanas pesadas o remolques comerciales.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Requisito previo: Permiso B en vigor.</div>
+              <div class="permiso-req-row">B96: Conjuntos de hasta 4.250 kg de MMA (sin teórico).</div>
+              <div class="permiso-req-row">B+E: Conjuntos de hasta 7.000 kg de MMA.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20informaci%C3%B3n%20sobre%20el%20carnet%20de%20remolque%20B96%20o%20B%2BE." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-outline-dark" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar B96 / B+E por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6. Camión C -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-3" data-category="pesados">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">CAMIÓN C1 · C</span>
+              <span class="permiso-status-tag">TRANSPORTE PESADO</span>
+            </div>
+            <h3 class="permiso-editorial-title">Vehículos Rígidos</h3>
+            <p class="permiso-quick-info">Camiones pesados sin límite de MMA · Oposiciones y empleo</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Acceso a la profesión del transporte de mercancías por carretera y requisito fundamental en oposiciones de bomberos y servicios de emergencias municipales.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Edad mínima: 21 años (o 18 años con CAP Inicial acreditado).</div>
+              <div class="permiso-req-row">Requisito previo: Permiso B en vigor.</div>
+              <div class="permiso-req-row">Prácticas de maniobras en circuito propio y circulación real.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20informaci%C3%B3n%20sobre%20el%20Permiso%20C%20de%20cami%C3%B3n." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar Camión C por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7. Tráiler C+E -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-1" data-category="pesados">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">TRÁILER C+E</span>
+              <span class="permiso-status-tag">ARTICULADOS</span>
+            </div>
+            <h3 class="permiso-editorial-title">Trenes de Carretera</h3>
+            <p class="permiso-quick-info">Cabezas tractoras y semirremolques · Máxima categoría profesional</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              La máxima cualificación en el transporte terrestre. Habilita para cabezas tractoras con semirremolque y trenes articulados sin limitación de tonelaje ni volumen.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Requisito previo: Permiso C en vigor.</div>
+              <div class="permiso-req-row">Dominio técnico de enganche, desacople y maniobra inversa.</div>
+              <div class="permiso-req-row">Alta demanda de contratación en empresas logísticas de Alicante.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20deseo%20informaci%C3%B3n%20sobre%20el%20Permiso%20C%2BE%20de%20tr%C3%A1iler." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar Tráiler C+E por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8. Autobús D -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-2" data-category="pesados">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">AUTOBÚS D1 · D</span>
+              <span class="permiso-status-tag">TRANSPORTE COLECTIVO</span>
+            </div>
+            <h3 class="permiso-editorial-title">Transporte de Viajeros</h3>
+            <p class="permiso-quick-info">Autobuses y autocares urbanos, turísticos y de ruta escolar</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Cualificación oficial para la conducción de autobuses y autocares en servicios regulares urbanos, transporte discrecional turístico internacional y rutas escolares.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Vehículos destinados al transporte de más de 8 pasajeros.</div>
+              <div class="permiso-req-row">Edad mínima: 24 años (o 18/21 años según certificado CAP).</div>
+              <div class="permiso-req-row">Formación teórica intensiva y prácticas en trazados reales.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20informaci%C3%B3n%20sobre%20el%20Permiso%20D%20de%20autob%C3%BAs." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-outline-dark" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Consultar Autobús D por WhatsApp
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9. Reciclaje -->
+        <article class="permiso-editorial-card reveal-on-scroll delay-3" data-category="coche">
+          <div class="permiso-summary-block">
+            <div class="permiso-card-head">
+              <span class="permiso-code-roman">RECICLAJE VIAL</span>
+              <span class="permiso-status-tag">PERFECCIONAMIENTO</span>
+            </div>
+            <h3 class="permiso-editorial-title">Pérdida del Hábito y Amaxofobia</h3>
+            <p class="permiso-quick-info">Clases prácticas personalizadas para recuperar tu confianza y soltura</p>
+            <div class="permiso-toggle-indicator">
+              <span class="toggle-symbol">+</span>
+              <span class="toggle-text">Ver requisitos y detalles</span>
+            </div>
+          </div>
+
+          <div class="permiso-collapsible-content">
+            <p class="permiso-editorial-desc">
+              Sesiones individuales adaptadas para personas que ya poseen el carnet pero llevan años sin ponerse al volante o experimentan inseguridad y ansiedad ante el tráfico moderno.
+            </p>
+            <div class="permiso-requirements-block">
+              <div class="permiso-req-row">Profesor con pedagogía cercana, comprensiva y sin prisas.</div>
+              <div class="permiso-req-row">Itinerarios a medida por autovías, glorietas y maniobras.</div>
+              <div class="permiso-req-row">Recupera tu autonomía al volante a tu propio ritmo.</div>
+            </div>
+            <div style="padding-top: 0.5rem;">
+              <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20tengo%20carnet%20y%20deseo%20realizar%20clases%20de%20reciclaje." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-outline-dark" style="width:100%; display:inline-flex; justify-content:center; align-items:center;">
+                Solicitar Clases de Reciclaje
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       RECUPERACIÓN DE PUNTOS DGT (MONOLITO NEGRO Y AMARILLO)
+       ======================================================================== -->
+  <section class="section-editorial-padding puntos-monolith-section" id="puntos-dgt">
+    <div class="container">
+      <div class="puntos-editorial-layout">
+        <div>
+          <span class="section-editorial-index on-dark reveal-on-scroll">DIRECCIÓN GENERAL DE TRÁFICO</span>
+          <h2 class="section-editorial-title on-dark reveal-on-scroll delay-1">
+            Recuperación de Puntos y <em>Vigencia del Permiso</em>
+          </h2>
+          <p class="section-editorial-desc on-dark reveal-on-scroll delay-2" style="margin-bottom:3rem;">
+            Centro oficial autorizado por la DGT en San Vicente del Raspeig. Impartimos los cursos oficiales de reeducación vial con convocatorias programadas cada mes.
+          </p>
+
+          <div class="puntos-tier-item reveal-on-scroll delay-1">
+            <div class="puntos-tier-header">
+              <h3>Recuperación Parcial (Tipo A)</h3>
+              <span class="puntos-tier-hours">12 Horas · Sin Examen</span>
+            </div>
+            <p class="puntos-tier-desc">
+              Permite recuperar hasta 6 puntos del saldo del carnet con la sola asistencia y aprovechamiento de las sesiones. Realizable una vez cada dos años (o cada año para conductores profesionales).
+            </p>
+          </div>
+
+          <div class="puntos-tier-item reveal-on-scroll delay-2">
+            <div class="puntos-tier-header">
+              <h3>Recuperación Total de la Vigencia (Tipo B)</h3>
+              <span class="puntos-tier-hours">24 Horas Lectivas</span>
+            </div>
+            <p class="puntos-tier-desc">
+              Destinado a personas que han agotado la totalidad de sus puntos o han sido privadas del derecho a conducir por sentencia judicial. Permite obtener de nuevo la vigencia con 8 puntos tras el examen teórico oficial.
+            </p>
+          </div>
+
+          <div style="display:flex; flex-wrap:wrap; gap:1.25rem; margin-top:3rem;" class="reveal-on-scroll delay-3">
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20las%20fechas%20del%20pr%C3%B3ximo%20curso%20de%20Recuperaci%C3%B3n%20de%20Puntos%20DGT." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-yellow">
+              Consultar Próximas Fechas
+            </a>
+            <a href="tel:+34965201566" class="btn-editorial btn-outline-white">
+              Teléfono: 965 20 15 66
+            </a>
+          </div>
+        </div>
+
+        <div class="puntos-image-frame reveal-on-scroll delay-2">
+          <img src="assets/recuperacion-puntos.jpg" alt="Aula de formación de la DGT en Autoescuela Alimar" />
+          <div class="puntos-image-caption">
+            <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--brand-yellow); letter-spacing:0.1em; text-transform:uppercase; display:block; margin-bottom:0.35rem;">
+              CONVOCATORIAS MENSUALES
+            </span>
+            <p style="font-size:0.92rem; color:#E2E8F0; margin:0;">
+              Horarios flexibles entre semana o en modalidad intensiva de fin de semana con tramitación de expediente en secretaría.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       HUB PROFESIONAL: CAP, ADR Y MAQUINARIA (ESTILO EDITORIAL)
+       ======================================================================== -->
+  <section class="section-editorial-padding prof-editorial-section" id="profesional">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">TRANSPORTE Y LOGÍSTICA</span>
+        <h2 class="section-editorial-title">
+          Cualificación <em>Profesional</em> y Empresas
+        </h2>
+        <p class="section-editorial-desc">
+          Acreditaciones oficiales para operadores logísticos, transportistas y maquinaria industrial con prácticas en instalaciones homologadas.
+        </p>
+      </div>
+
+      <div class="prof-editorial-grid">
+        <!-- 1. CAP Inicial -->
+        <div class="prof-editorial-card reveal-on-scroll delay-1">
+          <div>
+            <div class="prof-card-top">
+              <div class="prof-card-title-group">
+                <div class="prof-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    <line x1="10" y1="7" x2="16" y2="7"></line>
+                    <line x1="10" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                </div>
+                <h3>CAP Inicial</h3>
+              </div>
+              <span class="prof-duration-pill">140 HORAS · MERCANCÍAS Y VIAJEROS</span>
+            </div>
+            <p>
+              Certificado oficial imprescindible para ejercer profesionalmente en camión (C) o autobús (D). 130 horas de formación teórica y 10 horas de conducción en tráfico real.
+            </p>
+            <div class="prof-tags-grid">
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> 95% de aprobados a la 1ª</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Vehículos pesados reales</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Simulador homologado DGT</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Válido en toda la UE</div>
+            </div>
+          </div>
+          <div class="prof-card-footer">
+            <span class="prof-fundae-note">Centro Homologado DGT</span>
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20informaci%C3%B3n%20sobre%20el%20curso%20CAP%20Inicial." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue prof-cta-btn">
+              Consultar CAP Inicial
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. CAP Continuo -->
+        <div class="prof-editorial-card reveal-on-scroll delay-2">
+          <div>
+            <div class="prof-card-top">
+              <div class="prof-card-title-group">
+                <div class="prof-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <h3>CAP Continuo</h3>
+              </div>
+              <span class="prof-duration-pill" style="background:#FEF9C3; color:#854D0E; border:1px solid #FDE047;">★ 100% BONIFICABLE FUNDAE</span>
+            </div>
+            <p>
+              Renovación obligatoria cada 5 años. Formación presencial de 35 horas sin examen oficial, con horarios adaptados entre semana o intensivos de fin de semana.
+            </p>
+            <div class="prof-tags-grid">
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Sin ningún examen DGT</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> 100% bonificable empresas</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Modalidad intensiva 35h</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Convocatorias continuas</div>
+            </div>
+          </div>
+          <div class="prof-card-footer">
+            <span class="prof-fundae-note">Gestión gratuita de créditos</span>
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20deseo%20renovar%20el%20CAP%20Continuo%20de%2035%20horas." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue prof-cta-btn">
+              Reservar CAP Continuo
+            </a>
+          </div>
+        </div>
+
+        <!-- 3. ADR -->
+        <div class="prof-editorial-card reveal-on-scroll delay-3">
+          <div>
+            <div class="prof-card-top">
+              <div class="prof-card-title-group">
+                <div class="prof-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <h3>Mercancías Peligrosas ADR</h3>
+              </div>
+              <span class="prof-duration-pill">BÁSICO & CISTERNAS</span>
+            </div>
+            <p>
+              Autorización oficial para transporte de mercancías peligrosas. Cursos específicos de obtención inicial y renovación para conductores profesionales.
+            </p>
+            <div class="prof-tags-grid">
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Básico, Cisternas y Especialidades</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Obtención y renovación</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Instructores especialistas</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Protocolos oficiales de seguridad</div>
+            </div>
+          </div>
+          <div class="prof-card-footer">
+            <span class="prof-fundae-note">Transporte Especializado</span>
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20informaci%C3%B3n%20sobre%20los%20cursos%20ADR." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue prof-cta-btn">
+              Consultar ADR
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Carretillas -->
+        <div class="prof-editorial-card reveal-on-scroll delay-4">
+          <div>
+            <div class="prof-card-top">
+              <div class="prof-card-title-group">
+                <div class="prof-icon-wrap" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h4v10H4z"></path>
+                    <path d="M8 14h10"></path>
+                    <path d="M18 10h4v4h-4z"></path>
+                    <circle cx="7" cy="18" r="2"></circle>
+                    <circle cx="17" cy="18" r="2"></circle>
+                  </svg>
+                </div>
+                <h3>Carretillas Elevadoras</h3>
+              </div>
+              <span class="prof-duration-pill">20 HORAS · PISTA PROPIA</span>
+            </div>
+            <p>
+              Certificación laboral homologada según Ley 31/1995. Formación técnica y maniobras prácticas con maquinaria industrial en instalaciones reales.
+            </p>
+            <div class="prof-tags-grid">
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Frontal, retráctil y transpaleta</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Conforme norma UNE 58451</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Práctica en circuito cerrado</div>
+              <div class="prof-tag-item"><span class="prof-check-icon">✓</span> Bolsa de empleo logístico</div>
+            </div>
+          </div>
+          <div class="prof-card-footer">
+            <span class="prof-fundae-note">Normativa Prevención Laboral</span>
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20informaci%C3%B3n%20sobre%20el%20curso%20de%20Carretillas%20Elevadoras." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue prof-cta-btn">
+              Curso Carretillas
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       INSTALACIONES Y FOTOGRAFÍA REAL (BENTO GRID LIMPIO)
+       ======================================================================== -->
+  <section class="section-editorial-padding gallery-editorial-section" id="instalaciones">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">ENTORNO REAL</span>
+        <h2 class="section-editorial-title">
+          Circuito Privado, Flota y <em>Alumnos Aprobados</em>
+        </h2>
+        <p class="section-editorial-desc">
+          Documentación gráfica de nuestros vehículos, el circuito de prácticas propio y la sede de San Vicente del Raspeig.
+        </p>
+      </div>
+
+      <!-- Bento Grid de 3 Fotos Principais -->
+      <div class="gallery-lead-grid">
+        <div class="gallery-photo-item reveal-on-scroll delay-1">
+          <img src="assets/coche-aealimar.jpg" alt="Audi Q3 de Autoescuela Alimar en su pista propia" loading="lazy" />
+          <div class="gallery-photo-caption">
+            <span>PERMISO B</span>
+            <h4>Audi Q3 y Turismos Modernos</h4>
+          </div>
+        </div>
+
+        <div class="gallery-photo-item reveal-on-scroll delay-2">
+          <img src="assets/moto-aealimar.jpg" alt="Motocicletas en el circuito cerrado propio de Autoescuela Alimar" loading="lazy" />
+          <div class="gallery-photo-caption">
+            <span>PERMISOS A · A1 · A2</span>
+            <h4>Circuito Cerrado de Maniobras</h4>
+          </div>
+        </div>
+
+        <div class="gallery-photo-item reveal-on-scroll delay-3">
+          <img src="assets/fachada-768x1365.jpg" alt="Fachada de Autoescuela Alimar en Calle Villafranqueza 53" loading="lazy" />
+          <div class="gallery-photo-caption">
+            <span>SEDE CENTRAL</span>
+            <h4>Calle Villafranqueza, 53</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Fotos Reais de Alunos -->
+      <div class="students-editorial-grid">
+        <div class="student-editorial-card reveal-on-scroll delay-1">
+          <img src="assets/Captura de tela 2026-11-08 125227.png" alt="Alumno de Autoescuela Alimar con su placa L" loading="lazy" />
+          <div class="student-editorial-label">50 Aniversario · San Vicente</div>
+        </div>
+
+        <div class="student-editorial-card reveal-on-scroll delay-2">
+          <img src="assets/Captura de tela 2026-11-08 125514.png" alt="Alumna aprobada con el coche de prácticas" loading="lazy" />
+          <div class="student-editorial-label">Permiso B · Aprobada</div>
+        </div>
+
+        <div class="student-editorial-card reveal-on-scroll delay-3">
+          <img src="assets/Captura de tela 2026-11-08 125530.png" alt="Alumno celebrando su carnet de conducir con su profesora" loading="lazy" />
+          <div class="student-editorial-label">Aprobado en Alicante</div>
+        </div>
+
+        <div class="student-editorial-card reveal-on-scroll delay-4">
+          <img src="assets/Captura de tela 2026-11-08 125542.png" alt="Alumna con la placa L oficial de la DGT" loading="lazy" />
+          <div class="student-editorial-label">Aprobada a la primera</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       OPINIONES REALES & FAQ (PRENSA EDITORIAL)
+       ======================================================================== -->
+  <section class="section-editorial-padding reviews-editorial-section" id="opiniones">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">RESEÑAS VERIFICADAS</span>
+        <h2 class="section-editorial-title">
+          La valoración de quienes <em>ya conducen</em>
+        </h2>
+        <p class="section-editorial-desc">
+          Testimonios documentados en Google Reviews sobre la metodología y paciencia de nuestro equipo docente.
+        </p>
+      </div>
+
+      <div class="reviews-editorial-grid">
+        <article class="review-editorial-card reveal-on-scroll delay-1">
+          <p class="review-quote-text">
+            "Grandísimos profesionales. Gracias a ellos tengo varios permisos de conducción y títulos profesionales, el trato al cliente es inmejorable y la enseñanza genial. Gracias a Paco, María Ángeles, Eduardo y Sonia."
+          </p>
+          <div class="review-author-meta">
+            <span class="review-author-name">Nerikus S.</span>
+            <span class="review-author-course">Varios permisos y cursos profesionales</span>
+          </div>
+        </article>
+
+        <article class="review-editorial-card reveal-on-scroll delay-2">
+          <p class="review-quote-text">
+            "¡Mi experiencia con el carnet de coche fue maravillosa! En secretaría no tardaron nada en llamarme para las prácticas. Mi profesor fue Eduardo, un hombre con una paciencia infinita que te explica todo con calma."
+          </p>
+          <div class="review-author-meta">
+            <span class="review-author-name">Desire</span>
+            <span class="review-author-course">Alumna de Permiso B (Turismo)</span>
+          </div>
+        </article>
+
+        <article class="review-editorial-card reveal-on-scroll delay-3">
+          <p class="review-quote-text">
+            "Yo me he sacado el carnet de moto A2 y ha sido todo bastante rápido. Quiero dar las gracias en especial a Paco, mi profesor en las clases de maniobras y circuito, siempre atento para darte los mejores consejos."
+          </p>
+          <div class="review-author-meta">
+            <span class="review-author-name">Paco Valera Morales</span>
+            <span class="review-author-course">Alumno de Carnet de Moto A2</span>
+          </div>
+        </article>
+      </div>
+
+      <!-- FAQ en Líneas Minimalistas -->
+      <div class="faq-editorial-container">
+        <div class="section-editorial-header reveal-on-scroll" style="margin-bottom: 2.5rem;">
+          <span class="section-editorial-index">PREGUNTAS FRECUENTES</span>
+          <h3 class="section-editorial-title" style="font-size: clamp(1.8rem, 3.2vw, 2.5rem);">
+            Dudas recurrentes antes de la matrícula
+          </h3>
+        </div>
+
+        <div class="faq-editorial-item reveal-on-scroll delay-1 active">
+          <div class="faq-editorial-question">
+            <span>¿Dónde se realizan las prácticas de moto, camión y remolque?</span>
+            <span class="faq-editorial-indicator">+</span>
+          </div>
+          <div class="faq-editorial-answer">
+            En nuestro propio Centro de Prácticas privado (circuito cerrado exclusivo). Esto permite entrenar todas las maniobras oficiales DGT con tranquilidad, sin pérdidas de tiempo en desplazamientos ni esperas en pistas públicas compartidas.
+          </div>
+        </div>
+
+        <div class="faq-editorial-item reveal-on-scroll delay-2">
+          <div class="faq-editorial-question">
+            <span>¿Con qué periodicidad se convocan los cursos de Puntos DGT y CAP?</span>
+            <span class="faq-editorial-indicator">+</span>
+          </div>
+          <div class="faq-editorial-answer">
+            Autoescuela Alimar programa cursos de CAP Continuo (35 horas) y cursos oficiales de Recuperación de Puntos DGT (12 horas parcial y 24 horas permiso) todos los meses, ofreciendo convocatorias entre semana e intensivas de fin de semana.
+          </div>
+        </div>
+
+        <div class="faq-editorial-item reveal-on-scroll delay-3">
+          <div class="faq-editorial-question">
+            <span>¿Es posible preparar la prueba teórica a distancia?</span>
+            <span class="faq-editorial-indicator">+</span>
+          </div>
+          <div class="faq-editorial-answer">
+            Sí. Al matricularte recibes acceso permanente a nuestra Aula Virtual de tests online con las preguntas oficiales de examen de la DGT actualizadas a diario, complementable con la asistencia presencial a nuestras aulas climatizadas.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       SEDE FÍSICA & CONTACTO (ARQUITECTURA SOBRIA)
+       ======================================================================== -->
+  <section class="section-editorial-padding contact-editorial-section" id="contacto">
+    <div class="container">
+      <div class="section-editorial-header reveal-on-scroll">
+        <span class="section-editorial-index">LOCALIZACIÓN</span>
+        <h2 class="section-editorial-title">
+          Sede Central en <em>San Vicente del Raspeig</em>
+        </h2>
+        <p class="section-editorial-desc">
+          En la esquina de Calle Villafranqueza con Calle Doctor Marañón. Atención continuada de mañana y tarde.
+        </p>
+      </div>
+
+      <div class="contact-architectural-grid reveal-on-scroll">
+        <div class="contact-text-column">
+          <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--brand-blue); letter-spacing:0.12em; text-transform:uppercase; display:block; margin-bottom:0.75rem;">
+            CENTRO DE FORMACIÓN VIAL
+          </span>
+          <h3 style="font-family:var(--font-display); font-size:2rem; font-weight:800; color:var(--text-black); margin-bottom:0.75rem;">
+            Autoescuela Alimar
+          </h3>
+          <p style="font-size:1.02rem; color:var(--text-muted); line-height:1.7;">
+            Más de 50 años formando conductores responsables en la provincia de Alicante. Código oficial DGT A 0830-01.
+          </p>
+
+          <div class="contact-details-table">
+            <div class="contact-field-item">
+              <label>Dirección</label>
+              <p>Calle Villafranqueza, 53</p>
+              <span>Esq. C/ Doctor Marañón, 7-9<br />03690 San Vicente del Raspeig</span>
+            </div>
+
+            <div class="contact-field-item">
+              <label>Horario Secretaría</label>
+              <p>Lunes a Viernes</p>
+              <span>Mañanas: 09:00 a 13:30 h<br />Tardes: 16:00 a 21:00 h</span>
+            </div>
+
+            <div class="contact-field-item">
+              <label>Teléfono Fijo</label>
+              <p><a href="tel:+34965201566" style="color:var(--brand-blue);">965 20 15 66</a></p>
+              <span>Atención en horario comercial</span>
+            </div>
+
+            <div class="contact-field-item">
+              <label>WhatsApp Directo</label>
+              <p><a href="https://wa.me/34747467742" target="_blank" rel="noopener noreferrer" style="color:var(--brand-blue);">+34 747 46 77 42</a></p>
+              <span>Consultas de precios y matrículas</span>
+            </div>
+          </div>
+
+          <div style="display:flex; flex-wrap:wrap; gap:1.25rem;">
+            <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20informaci%C3%B3n%20para%20matricularme." target="_blank" rel="noopener noreferrer" class="btn-editorial btn-blue">
+              Escribir por WhatsApp
+            </a>
+            <a href="https://www.google.com/maps/place/Autoescuela+Alimar/@38.3943965,-0.5151395,17z/data=!3m1!4b1!4m6!3m5!1s0xd6236ab19786f93:0x8bf923660fb0fed5!8m2!3d38.3943965!4d-0.5151395!16s%2Fg%2F12qh9ynts" target="_blank" rel="noopener noreferrer" class="btn-editorial btn-outline-dark">
+              Ver en Google Maps
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-photo-column">
+          <img src="assets/fachada-768x1365.jpg" alt="Fachada oficial de Autoescuela Alimar en San Vicente del Raspeig" loading="lazy" />
+          <div class="contact-photo-overlay">
+            <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--brand-yellow); letter-spacing:0.1em; text-transform:uppercase; display:block; margin-bottom:0.25rem;">
+              ACCESO PRINCIPAL
+            </span>
+            <p style="font-size:0.95rem; color:#FFFFFF; margin:0; font-weight:600;">
+              Calle Villafranqueza, 53 · San Vicente del Raspeig
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       FOOTER SOBRIO (AZUL Y NEGRO PURO)
+       ======================================================================== -->
+  <footer class="site-editorial-footer">
+    <div class="container">
+      <div class="footer-columns-grid">
+        <div>
+          <img src="assets/logo.png" alt="Logo Autoescuela Alimar" style="height:46px; width:auto; border-radius:4px; margin-bottom:1.5rem;" />
+          <p style="font-size:0.92rem; color:#9AA6BA; line-height:1.7; margin-bottom:1.25rem;">
+            <strong>Autoescuela Alimar</strong>. Centro de Formación Vial y Transporte Profesional en San Vicente del Raspeig (Alicante) desde 1972. Código Oficial DGT: <strong>A 0830-01</strong>.
+          </p>
+          <div style="font-family:var(--font-mono); font-size:0.78rem; color:var(--brand-yellow); letter-spacing:0.05em;">
+            CENTRO HOMOLOGADO DGT
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Permisos</h4>
+          <ul class="footer-col-links">
+            <li><a href="#permisos">Permiso B (Turismo)</a></li>
+            <li><a href="#permisos">Permisos AM y A1 (125 cc)</a></li>
+            <li><a href="#permisos">Permiso A2 y Curso Permiso A</a></li>
+            <li><a href="#permisos">Remolques B96 y B+E</a></li>
+            <li><a href="#permisos">Camión C1 / C y Tráiler C+E</a></li>
+            <li><a href="#permisos">Autobús D1 / D</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Profesional</h4>
+          <ul class="footer-col-links">
+            <li><a href="#puntos-dgt">Recuperación Puntos DGT</a></li>
+            <li><a href="#profesional">CAP Inicial (140h)</a></li>
+            <li><a href="#profesional">CAP Continuo (35h)</a></li>
+            <li><a href="#profesional">Mercancías Peligrosas ADR</a></li>
+            <li><a href="#profesional">Carretillas Elevadoras</a></li>
+            <li><a href="#instalaciones">Circuito de Prácticas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Acceso Oficial</h4>
+          <ul class="footer-col-links">
+            <li><a href="https://alumno.examentrafico.com/#/login/0" target="_blank" rel="noopener noreferrer">Aula Virtual (Test Online DGT)</a></li>
+            <li><a href="https://sedeclave.dgt.gob.es/WEB_NOTP_CONSULTA/consultaNota.faces" target="_blank" rel="noopener noreferrer">Consulta de Notas DGT</a></li>
+            <li><a href="https://www.google.com/maps/place/Autoescuela+Alimar/@38.3943965,-0.5151395,17z/data=!3m1!4b1!4m6!3m5!1s0xd6236ab19786f93:0x8bf923660fb0fed5!8m2!3d38.3943965!4d-0.5151395!16s%2Fg%2F12qh9ynts" target="_blank" rel="noopener noreferrer">Ubicación Google Maps</a></li>
+            <li><a href="tel:+34965201566">Teléfono: 965 20 15 66</a></li>
+            <li><a href="https://wa.me/34747467742" target="_blank" rel="noopener noreferrer">WhatsApp: +34 747 46 77 42</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>
+          © <span id="currentYear">2026</span> <strong>Autoescuela Alimar</strong>. Centro de Formación Campdrive S.L. (CIF B42631523). Todos los derechos reservados.
+        </div>
+        <div>
+          Calle Villafranqueza, 53 · 03690 San Vicente del Raspeig (Alicante, España)
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       BOTÓN FLOTANTE DISCRETO DE MARCA (AZUL Y AMARILLO)
+       ======================================================================== -->
+  <a href="https://wa.me/34747467742?text=Hola%20Autoescuela%20Alimar%2C%20solicito%20informaci%C3%B3n%20sobre%20vuestros%20permisos%20y%20cursos." target="_blank" rel="noopener noreferrer" class="floating-brand-wa" aria-label="Contactar por WhatsApp con Autoescuela Alimar">
+    <span class="wa-icon-dot"></span>
+    <span>Consultar por WhatsApp</span>
+  </a>
+
+  <!-- ========================================================================
+       SCRIPTS INTERACTIVOS (MENU OVERLAY, FILTER TABS, FAQ, OBSERVER)
+       ======================================================================== -->
+  <script>
+    (function () {
+      // 1. Menu Overlay
+      var openBtn = document.getElementById('openMenuBtn');
+      var closeBtn = document.getElementById('closeMenuBtn');
+      var overlayMenu = document.getElementById('overlayMenu');
+      var navLinks = document.querySelectorAll('.overlay-nav-link');
+
+      function openMenu() {
+        if (overlayMenu) {
+          overlayMenu.classList.add('is-open');
+          document.body.style.overflow = 'hidden';
+        }
+      }
+
+      function closeMenu() {
+        if (overlayMenu) {
+          overlayMenu.classList.remove('is-open');
+          document.body.style.overflow = '';
+        }
+      }
+
+      if (openBtn) openBtn.addEventListener('click', openMenu);
+      if (closeBtn) closeBtn.addEventListener('click', closeMenu);
+
+      navLinks.forEach(function (link) {
+        link.addEventListener('click', closeMenu);
+      });
+
+      
+      // 2.1 Nav Scroll Visual Background
+      var nav = document.querySelector('.editorial-nav');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 80) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
+
+      // 2.2 Permisos Minimized Cards Expand/Collapse Toggle
+      var permitArticles = document.querySelectorAll('.permiso-editorial-card');
+      permitArticles.forEach(function(card) {
+        card.addEventListener('click', function(e) {
+          // If clicked directly on the WhatsApp CTA button, let the link open naturally
+          if (e.target.closest('a.btn-editorial')) return;
+
+          var isCurrentlyExpanded = card.classList.contains('is-expanded');
+          var toggleText = card.querySelector('.toggle-text');
+
+          if (isCurrentlyExpanded) {
+            card.classList.remove('is-expanded');
+            if (toggleText) toggleText.textContent = 'Ver requisitos y detalles';
+          } else {
+            card.classList.add('is-expanded');
+            if (toggleText) toggleText.textContent = 'Ocultar detalles';
+          }
+        });
+      });
+
+      // 2. Filtros de Permisos
+      var tabButtons = document.querySelectorAll('.filter-tab-editorial-btn');
+      var permitCards = document.querySelectorAll('.permiso-editorial-card');
+
+      tabButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var filter = btn.getAttribute('data-filter');
+
+          tabButtons.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+
+          permitCards.forEach(function (card) {
+            var category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+
+      // 3. FAQ Minimalista
+      var faqItems = document.querySelectorAll('.faq-editorial-item');
+      faqItems.forEach(function (item) {
+        var questionBtn = item.querySelector('.faq-editorial-question');
+        if (questionBtn) {
+          questionBtn.addEventListener('click', function () {
+            var isOpen = item.classList.contains('active');
+            faqItems.forEach(function (other) { other.classList.remove('active'); });
+            if (!isOpen) {
+              item.classList.add('active');
+            }
+          });
+        }
+      });
+
+      // 4. Scroll-Triggered Staggered Entrances (Intersection Observer)
+      var reveals = document.querySelectorAll('.reveal-on-scroll');
+      if ('IntersectionObserver' in window) {
+        var observer = new IntersectionObserver(function(entries, obs) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-revealed');
+              obs.unobserve(entry.target);
+            }
+          });
+        }, {
+          threshold: 0.1,
+          rootMargin: '0px 0px -40px 0px'
+        });
+
+        reveals.forEach(function(el) {
+          observer.observe(el);
+        });
+      } else {
+        reveals.forEach(function(el) {
+          el.classList.add('is-revealed');
+        });
+      }
+
+      // 5. Año dinámico
+      var yearSpan = document.getElementById('currentYear');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    })();
+  </script>
+</body>
+</html>

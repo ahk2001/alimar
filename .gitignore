@@ -1,0 +1,22 @@
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+*.lnk
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.sw?
+
+# Temporary / Scratch scripts & logs
+scratch/
+*.tmp
+*.log
+__pycache__/
+*.pyc
